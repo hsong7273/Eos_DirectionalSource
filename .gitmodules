@@ -1,0 +1,3 @@
+[submodule "eos_kicad_library"]
+	path = eos_kicad_library
+	url = git@github.com:hsong7273/eos_kicad_library.git
