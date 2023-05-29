@@ -1,1 +1,1 @@
-# Eos_DirectionalSource
+# eos_trigger_proto
