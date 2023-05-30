@@ -217,7 +217,7 @@
     (property "Reference" "U1" (at 147.193 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "AFBR-S4N33C013" (at 147.32 109.22 0)
+    (property "Value" "~" (at 147.32 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "EOS_library:AFBR-S4N33C013" (at 147.32 96.52 0)
