@@ -189,6 +189,11 @@
     (pin "1" (uuid f4e55785-2e43-43f9-b5bd-f36c819a0c26))
     (pin "2" (uuid fe769b80-417e-4bc7-8604-b96821b63a47))
     (instances
+      (project "SiPM_daughter"
+        (path "/003e91a7-1682-47be-8bcb-0d42bc83000d"
+          (reference "J1") (unit 1)
+        )
+      )
       (project "eos_trigger_proto"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb/23e0edf2-5306-4a3c-8e49-3ebf9dd0f3c4"
           (reference "J1") (unit 1)
@@ -222,6 +227,11 @@
     (pin "R1" (uuid 2fa2e5f5-0250-4fd6-aea9-91a345d1787c))
     (pin "R2" (uuid 63425927-52cb-44bf-b9db-5be3c5aae22a))
     (instances
+      (project "SiPM_daughter"
+        (path "/003e91a7-1682-47be-8bcb-0d42bc83000d"
+          (reference "U1") (unit 1)
+        )
+      )
       (project "eos_trigger_proto"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb/23e0edf2-5306-4a3c-8e49-3ebf9dd0f3c4"
           (reference "U1") (unit 1)
@@ -248,11 +258,20 @@
     (pin "1" (uuid 9c40b50e-a24b-43c5-9de0-eafcf1777dd1))
     (pin "2" (uuid bea066e6-4157-4120-9849-81c8d4ac65a3))
     (instances
+      (project "SiPM_daughter"
+        (path "/003e91a7-1682-47be-8bcb-0d42bc83000d"
+          (reference "J4") (unit 1)
+        )
+      )
       (project "eos_trigger_proto"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb/23e0edf2-5306-4a3c-8e49-3ebf9dd0f3c4"
           (reference "J4") (unit 1)
         )
       )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )
