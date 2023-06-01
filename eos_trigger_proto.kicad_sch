@@ -457,6 +457,12 @@
   (junction (at 130.302 97.028) (diameter 0) (color 0 0 0 0)
     (uuid 65ae48dc-4900-4d94-992b-ca99b259d64f)
   )
+  (junction (at 207.264 55.372) (diameter 0) (color 0 0 0 0)
+    (uuid 73a03ae5-0653-4fc4-ba94-60765f83cd42)
+  )
+  (junction (at 203.454 62.992) (diameter 0) (color 0 0 0 0)
+    (uuid 7cd7f70f-78eb-41c3-b4aa-4770e17d2ac7)
+  )
   (junction (at 129.286 72.898) (diameter 0) (color 0 0 0 0)
     (uuid 7eef5401-c125-498f-bb92-a485952b162d)
   )
@@ -465,9 +471,6 @@
   )
   (junction (at 166.37 52.324) (diameter 0) (color 0 0 0 0)
     (uuid 92c74259-a8e3-4191-9478-d37835b00e77)
-  )
-  (junction (at 203.454 62.992) (diameter 0) (color 0 0 0 0)
-    (uuid 99648627-8700-46a6-95f7-d6118b8088aa)
   )
   (junction (at 137.922 90.678) (diameter 0) (color 0 0 0 0)
     (uuid b980f08b-8edf-438e-b46e-0e8cd1021c32)
@@ -481,6 +484,9 @@
   (junction (at 182.626 75.438) (diameter 0) (color 0 0 0 0)
     (uuid defb2950-b631-4b4a-b893-c3bc599f9585)
   )
+  (junction (at 210.82 62.992) (diameter 0) (color 0 0 0 0)
+    (uuid ecbe88e3-a4e2-4a95-bafa-5c39b9a34994)
+  )
   (junction (at 137.922 97.028) (diameter 0) (color 0 0 0 0)
     (uuid f79e3047-f76f-4243-96c2-bca80cf31ca1)
   )
@@ -493,6 +499,10 @@
     (stroke (width 0) (type default))
     (uuid 04fd77a5-3ad5-42e3-a933-34c75143cebc)
   )
+  (wire (pts (xy 210.82 62.992) (xy 213.614 62.992))
+    (stroke (width 0) (type default))
+    (uuid 0e4b16eb-b1f0-4b20-afb8-c5d26636352d)
+  )
   (wire (pts (xy 196.088 75.438) (xy 199.898 75.438))
     (stroke (width 0) (type default))
     (uuid 0e8c3d76-bcf9-41c0-a02c-094f31a74154)
@@ -500,6 +510,10 @@
   (wire (pts (xy 175.768 75.438) (xy 175.768 81.534))
     (stroke (width 0) (type default))
     (uuid 156ab1d0-236e-4607-a379-ffe00c047f02)
+  )
+  (wire (pts (xy 203.454 55.372) (xy 207.264 55.372))
+    (stroke (width 0) (type default))
+    (uuid 16ea8b49-9553-4e62-91ec-480b31740dee)
   )
   (wire (pts (xy 180.848 62.992) (xy 180.848 54.356))
     (stroke (width 0) (type default))
@@ -565,15 +579,15 @@
     (stroke (width 0) (type default))
     (uuid 6d993f1f-e180-4ebe-b726-af3e318a7383)
   )
-  (wire (pts (xy 203.454 58.42) (xy 203.454 62.992))
+  (wire (pts (xy 207.264 55.372) (xy 210.82 55.372))
     (stroke (width 0) (type default))
-    (uuid 765c2418-31de-4f1c-9686-e0f4d61ad255)
+    (uuid 79caa908-6803-4788-8da1-11e08ba54860)
   )
   (wire (pts (xy 128.016 72.898) (xy 129.286 72.898))
     (stroke (width 0) (type default))
     (uuid 7b1e3768-b8cb-47c2-bfbf-9281c598ca83)
   )
-  (wire (pts (xy 203.454 62.992) (xy 211.582 62.992))
+  (wire (pts (xy 203.454 62.992) (xy 210.82 62.992))
     (stroke (width 0) (type default))
     (uuid 7e763e1c-ec12-4254-ade7-aff2bd0d1f97)
   )
@@ -624,6 +638,10 @@
   (wire (pts (xy 199.898 68.072) (xy 199.898 75.438))
     (stroke (width 0) (type default))
     (uuid b4dc362e-ba78-48cb-bcc2-75cbdc5c8d15)
+  )
+  (wire (pts (xy 221.234 62.992) (xy 224.282 62.992))
+    (stroke (width 0) (type default))
+    (uuid ba03170f-eebf-4202-a939-ca019e377f4a)
   )
   (wire (pts (xy 130.302 97.028) (xy 130.302 100.838))
     (stroke (width 0) (type default))
@@ -736,10 +754,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "+5V" (shape input) (at 211.582 62.992 0) (fields_autoplaced)
+  (global_label "+5V" (shape input) (at 224.282 62.992 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7ca45f40-1408-47c4-a412-8f87539738b5)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 218.3583 62.992 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 231.0583 62.992 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -796,7 +814,7 @@
     )
     (pin "1" (uuid cb47831e-d473-4234-81ca-fb130fdd787b))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR018") (unit 1)
         )
@@ -822,7 +840,7 @@
     (pin "1" (uuid 24dd81a2-be4f-449e-92a8-8f1c7f6368dd))
     (pin "2" (uuid efc9b91d-dd90-4ab8-a9d7-fe2941814688))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "C3") (unit 1)
         )
@@ -847,7 +865,7 @@
     )
     (pin "1" (uuid 61ad6da0-92de-40e1-bd22-f8c4804e5209))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR07") (unit 1)
         )
@@ -873,9 +891,35 @@
     (pin "1" (uuid 6f1fac63-db56-4820-b193-9948b810f309))
     (pin "2" (uuid f658e3a2-cbb1-4cff-94fb-eb05ee521807))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "R9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Eos_Library:R") (at 217.424 62.992 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 18ea6cb1-9e3f-4547-a0e2-81471865ce61)
+    (property "Reference" "R10" (at 217.424 65.278 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "R" (at 217.424 62.992 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "EOS_library:C_0603_1608Metric" (at 217.424 64.77 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 217.424 62.992 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0e2928d3-20a2-446a-92ca-919542dcbfa5))
+    (pin "2" (uuid 000e7dee-462a-44f7-8bc6-ca89b2446ab1))
+    (instances
+      (project "eos_trigger_proto_panel"
+        (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -899,7 +943,7 @@
     (pin "1" (uuid ad0d713a-89d8-46d3-962a-6ec18e9b3c4b))
     (pin "2" (uuid 6cf54da0-b421-4397-aa1b-c1ef8dd12cf1))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "R8") (unit 1)
         )
@@ -908,12 +952,12 @@
   )
 
   (symbol (lib_id "EOS_library:AD8099") (at 149.86 78.994 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 2504f412-5dd0-41e3-80ce-dd74f4c1dbb3)
     (property "Reference" "U2" (at 149.86 65.6336 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 149.86 78.994 0)
+    (property "Value" "AD8099" (at 149.86 80.518 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "EOS_library:AD8099" (at 149.86 78.994 0)
@@ -931,7 +975,7 @@
     (pin "2" (uuid 343899a9-bccf-43ed-bf7f-e735113d494d))
     (pin "3" (uuid 9348fd32-09cc-4a3c-846a-3b069adecb49))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "U2") (unit 1)
         )
@@ -956,7 +1000,7 @@
     )
     (pin "1" (uuid 96f42703-8a2f-4867-b565-2f854bcefa39))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR017") (unit 1)
         )
@@ -981,7 +1025,7 @@
     )
     (pin "1" (uuid a750d05e-99ac-478b-b343-bb115c465080))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR015") (unit 1)
         )
@@ -1007,7 +1051,7 @@
     (pin "1" (uuid bd9d4485-a9e9-46d4-ac7b-2524908f6977))
     (pin "2" (uuid 8e95baa6-fc9a-4fc1-885b-d4025c3ca705))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "C6") (unit 1)
         )
@@ -1033,7 +1077,7 @@
     (pin "1" (uuid 90cf11c2-f5d5-4892-ac7d-b92926eb8bb0))
     (pin "2" (uuid bd205f39-d9ed-4b32-9bf9-f71f9ebb6486))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "C4") (unit 1)
         )
@@ -1041,25 +1085,25 @@
     )
   )
 
-  (symbol (lib_id "EOS_library:C") (at 207.264 58.42 90) (unit 1)
+  (symbol (lib_id "EOS_library:C") (at 203.454 59.182 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39f6b667-46d4-47be-bb35-7fba0cefb517)
-    (property "Reference" "C7" (at 207.264 52.578 90)
+    (property "Reference" "C7" (at 200.152 59.182 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0.1u" (at 207.264 54.864 90)
+    (property "Value" "10u" (at 207.01 59.182 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "EOS_library:C_0603_1608Metric" (at 211.074 57.4548 0)
+    (property "Footprint" "EOS_library:C_0603_1608Metric" (at 204.4192 62.992 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 207.264 58.42 0)
+    (property "Datasheet" "~" (at 203.454 59.182 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 49840dec-1492-4e88-886b-9130c24feffc))
     (pin "2" (uuid 22b074d9-a192-4ca2-9568-dc5dad1084d3))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "C7") (unit 1)
         )
@@ -1085,7 +1129,7 @@
     (pin "1" (uuid 038ddffc-9fd1-43c0-bc12-315d58c1864c))
     (pin "2" (uuid 79b0daee-0373-4006-8347-378ad345695e))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "R5") (unit 1)
         )
@@ -1110,7 +1154,7 @@
     )
     (pin "1" (uuid 146a9a2b-7e2c-4599-9028-fc9f66bebd9b))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR04") (unit 1)
         )
@@ -1135,7 +1179,7 @@
     )
     (pin "1" (uuid 8479391d-0e64-44fd-9c86-c62e02dbc67a))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR012") (unit 1)
         )
@@ -1160,7 +1204,7 @@
     )
     (pin "1" (uuid 222e55fe-5c7f-4923-88b2-b0e08ad1b24a))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR014") (unit 1)
         )
@@ -1187,7 +1231,7 @@
     (pin "2" (uuid cd2854e5-f3e3-4cde-8003-5d4ee98c0afb))
     (pin "3" (uuid f9c542e2-901c-4b2a-a7bf-227004dc6a6c))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "J3") (unit 1)
         )
@@ -1213,7 +1257,7 @@
     (pin "1" (uuid 01f662a5-a996-478d-bab8-9f46d17accb6))
     (pin "2" (uuid b9e9bdf8-d32d-4ad5-a731-7206206a7339))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "R1") (unit 1)
         )
@@ -1238,7 +1282,7 @@
     )
     (pin "1" (uuid 379824e7-253d-49fd-91e3-d2f53b06f936))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR01") (unit 1)
         )
@@ -1247,12 +1291,12 @@
   )
 
   (symbol (lib_id "EOS_library:LTC6752-4") (at 190.5 65.532 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 8776ad63-d711-4a74-8db1-8cb10bf0290a)
     (property "Reference" "U3" (at 190.373 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 190.5 65.532 0)
+    (property "Value" "LTC6752-1" (at 190.5 69.596 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "EOS_library:LT6752-1" (at 190.5 65.532 0)
@@ -1268,7 +1312,7 @@
     (pin "5" (uuid 7242973d-f152-4ae5-aaaa-363c6ff90f74))
     (pin "6" (uuid a40875f0-be2f-4c8d-8836-cb4dd83a81bd))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "U3") (unit 1)
         )
@@ -1294,7 +1338,7 @@
     (pin "1" (uuid 7c58d464-5fa6-4f44-af4c-7f5d63c24a18))
     (pin "2" (uuid 37f76571-445f-45c4-8b35-bcdf2c086f2a))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "R2") (unit 1)
         )
@@ -1320,7 +1364,7 @@
     (pin "1" (uuid 7db6b261-3c81-49a9-b7bb-9e93abf03963))
     (pin "2" (uuid d7097b63-78f6-4ab5-ae25-51004800f00e))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "C8") (unit 1)
         )
@@ -1345,7 +1389,7 @@
     )
     (pin "1" (uuid 4f127dbf-f81f-4323-8b44-bd84780988ca))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR05") (unit 1)
         )
@@ -1371,7 +1415,7 @@
     (pin "1" (uuid d13475ec-86d3-4c70-b9f1-76113b1eafc0))
     (pin "2" (uuid 82fa22b4-9db3-4a18-bf52-c1b4da3e93af))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "R4") (unit 1)
         )
@@ -1397,7 +1441,7 @@
     (pin "1" (uuid 7bf410c6-2c1d-4125-a8a2-0bfa7ade6dba))
     (pin "2" (uuid d97a31bd-4fbc-482d-9202-7366846bd4bd))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "J2") (unit 1)
         )
@@ -1426,7 +1470,7 @@
     (pin "2" (uuid e921a037-6a7d-4434-877c-2c33e6a91fb9))
     (pin "2" (uuid e921a037-6a7d-4434-877c-2c33e6a91fb9))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "U4") (unit 1)
         )
@@ -1452,7 +1496,7 @@
     (pin "1" (uuid 34b1756c-070b-4044-95c8-a9ad098f518d))
     (pin "2" (uuid 883b71dc-6d5b-4918-97d6-cb74ff903ccb))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "C1") (unit 1)
         )
@@ -1477,7 +1521,7 @@
     )
     (pin "1" (uuid 33333b17-ad3d-4435-b66d-a53e5dd9171b))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR011") (unit 1)
         )
@@ -1503,7 +1547,7 @@
     (pin "1" (uuid 5acbc4e9-2432-4556-b590-1c480b790b5a))
     (pin "2" (uuid 942fcd18-5ee2-4efc-b129-932b7a1f618b))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "C5") (unit 1)
         )
@@ -1529,9 +1573,35 @@
     (pin "1" (uuid 3044a848-e32d-4833-94ed-50a67ba4426e))
     (pin "2" (uuid 9f9a0859-88f3-4056-a268-a4f087695e6c))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "R3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Eos_Library:R") (at 210.82 59.182 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid baf0dbd1-400c-41da-9804-e6a6aca22966)
+    (property "Reference" "R11" (at 212.09 59.182 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "R" (at 210.82 59.182 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "EOS_library:C_0603_1608Metric" (at 209.042 59.182 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 210.82 59.182 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8edb41b8-25cf-4c34-b800-e308c33ee904))
+    (pin "2" (uuid 1cfc859b-b801-4536-aba3-ca2febcbe507))
+    (instances
+      (project "eos_trigger_proto_panel"
+        (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1554,7 +1624,7 @@
     )
     (pin "1" (uuid 8997c810-f4ff-42cc-adfe-5f89ad419e87))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR02") (unit 1)
         )
@@ -1579,7 +1649,7 @@
     )
     (pin "1" (uuid a402cce3-0743-4823-995a-edc208b1e298))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR06") (unit 1)
         )
@@ -1604,7 +1674,7 @@
     )
     (pin "1" (uuid 61b88bfa-e4de-4312-8673-f4327fbe6d2f))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR09") (unit 1)
         )
@@ -1630,7 +1700,7 @@
     (pin "1" (uuid 02602970-5e74-45e3-911c-fec6e47c05e3))
     (pin "2" (uuid b67bf757-d3cd-49fd-85d5-29f647a01d22))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "R7") (unit 1)
         )
@@ -1638,24 +1708,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 211.074 58.42 90) (unit 1)
+  (symbol (lib_id "power:GND") (at 207.264 55.372 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d499ccb0-4017-4681-9a70-5404a4c019ff)
-    (property "Reference" "#PWR019" (at 217.424 58.42 0)
+    (property "Reference" "#PWR019" (at 207.264 49.022 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 214.63 58.42 90)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Value" "GND" (at 207.264 51.816 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 211.074 58.42 0)
+    (property "Footprint" "" (at 207.264 55.372 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 211.074 58.42 0)
+    (property "Datasheet" "" (at 207.264 55.372 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 88fe752d-8ea5-410a-a18f-17b19fba41ee))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR019") (unit 1)
         )
@@ -1680,7 +1750,7 @@
     )
     (pin "1" (uuid f6b494a4-49de-4013-b296-1f4837c7c440))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR013") (unit 1)
         )
@@ -1706,7 +1776,7 @@
     (pin "1" (uuid b9fa9bd1-4fe7-4ffc-adc7-3a31e49aa73f))
     (pin "2" (uuid 991bf9e3-9fa4-4c00-a844-0f5d1e6f4fbd))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "C2") (unit 1)
         )
@@ -1731,7 +1801,7 @@
     )
     (pin "1" (uuid 9a0241b8-4732-4207-a35c-4a18de550b74))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR016") (unit 1)
         )
@@ -1757,7 +1827,7 @@
     (pin "1" (uuid cb4a4e96-9d8b-4105-9898-fee833dcb513))
     (pin "2" (uuid 6e8cf797-d4ed-4ce5-803b-37ed4283f3e9))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "R6") (unit 1)
         )
@@ -1786,7 +1856,7 @@
     (pin "2" (uuid 8543733e-4f8a-4fb2-b0f1-30e7655bd365))
     (pin "2" (uuid 8543733e-4f8a-4fb2-b0f1-30e7655bd365))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "U5") (unit 1)
         )
@@ -1811,7 +1881,7 @@
     )
     (pin "1" (uuid 9c48fa9b-1fdb-4b7c-9ccf-1ace7c854187))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR010") (unit 1)
         )
@@ -1836,7 +1906,7 @@
     )
     (pin "1" (uuid 455c2363-64ca-4c48-a220-f58aee0fc90f))
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb"
           (reference "#PWR03") (unit 1)
         )
@@ -1863,7 +1933,7 @@
       (uuid 93e15843-9dc1-4dd1-98a3-1b07f1ab2ce2)
     )
     (instances
-      (project "eos_trigger_proto"
+      (project "eos_trigger_proto_panel"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb" (page "2"))
       )
     )
