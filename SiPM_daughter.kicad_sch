@@ -194,7 +194,7 @@
           (reference "J1") (unit 1)
         )
       )
-      (project "eos_trigger_proto_panel"
+      (project "eos_trigger_proto"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb/23e0edf2-5306-4a3c-8e49-3ebf9dd0f3c4"
           (reference "J1") (unit 1)
         )
@@ -232,7 +232,7 @@
           (reference "U1") (unit 1)
         )
       )
-      (project "eos_trigger_proto_panel"
+      (project "eos_trigger_proto"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb/23e0edf2-5306-4a3c-8e49-3ebf9dd0f3c4"
           (reference "U1") (unit 1)
         )
@@ -263,7 +263,7 @@
           (reference "J4") (unit 1)
         )
       )
-      (project "eos_trigger_proto_panel"
+      (project "eos_trigger_proto"
         (path "/35db8c63-fd46-4d81-b248-207e32fc4dfb/23e0edf2-5306-4a3c-8e49-3ebf9dd0f3c4"
           (reference "J4") (unit 1)
         )
