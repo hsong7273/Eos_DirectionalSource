@@ -261,10 +261,17 @@
     )
   )
 
-  (gr_rect (start 144.88 96.04) (end 154.11 98.68)
-    (stroke (width 0.2) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 775f1c4f-7288-490b-aa9c-c9aac37a3625))
-  (gr_rect (start 142.01 96.04) (end 144.47 105.64)
-    (stroke (width 0.2) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 7dce4fac-adad-4ebd-89d6-62707e310415))
+  (gr_poly
+    (pts
+      (xy 142 96.96)
+      (xy 153.51 96.97)
+      (xy 153.51 98.14)
+      (xy 144.02 98.14)
+      (xy 144.03 104.84)
+      (xy 142 104.84)
+    )
+
+    (stroke (width 0.05) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 2d859312-7ef4-4e23-8823-1902bdaa9f94))
   (gr_rect (start 138.176 95.758) (end 154.432 105.918)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp dd226930-33ef-4aa5-ad55-ed730255741d))
 
