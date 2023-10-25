@@ -17,3 +17,6 @@
 *-rescue.lib
 *.gbr
 *.gbrjob
+*.drl
+*.zip
+*.lck
